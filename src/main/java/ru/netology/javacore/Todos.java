@@ -24,4 +24,7 @@ public class Todos {
         return builder.toString();
     }
 
+    public List<String> getTasks() {
+        return tasks;
+    }
 }
